@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+<meta charset="utf-8">
+<link rel="icon" href="images/icon.png" type="image/x-icon" />
+<link rel="shortcut icon" href="images/icon.png" type="image/x-icon" />
+<title>CPSoftware</title>
+<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="keywords"
+	content="software, desenvolvimento, pesquisa, análise de dados, solução">
+<meta name="description"
+	content="É uma landing page do grupo CPSoftware (Centro de Pesquisa em Software), afim de divulgar o grupo e os trabalhos realizados pelo mesmo.">
+
+<link rel="stylesheet" href="css/animate.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async
+	src="https://www.googletagmanager.com/gtag/js?id=UA-121178815-1"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-121178815-1');
+</script>
+
+
+<link rel="stylesheet" href="css/estilo.css">
+
+<style>
+#map {
+	height: 500px;
+	width: 100%;
+}
+</style>
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+
+<body id="body">
+	<div class="preloader">
+		<!-- <div class="sk-spinner sk-spinner-rotating-plane"></div> -->
+	</div>
+	<header id="navigation" class="navbar-fixed-top navbar"
+		style="background-color: #F8F8F8;">
+		<div class="container" style="background-color: #F8F8F8;">
+			<div class="navbar-header">
+				<!-- responsive nav button -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<!-- <span class="sr-only">Toggle navigation</span> -->
+					<!-- <i class="fa fa-bars"></i> -->
+					<img style="height: 20px;" src="images/menu-icon.png" alt="">
+				</button>
+				<!-- /responsive nav button -->
+
+				<!-- logo -->
+				<!-- <a class="navbar-brand" href="#body"> -->
+				<div class="navbar-header">
+					<a href="index-pt.html"> <img
+						style="padding-top: 14px; padding-left: 10px; height: 45px;"
+						src="images/logo-cpsoftware.svg" alt="">
+					</a>
+				</div>
+				<!-- </a> -->
+				<!-- /logo -->
+			</div>
+
+			<!-- main nav -->
+			<nav class="collapse navbar-collapse navbar-right" role="navigation"
+				style="background-color: #F8F8F8; padding-top: 5px;">
+				<ul class="nav navbar-nav navbar-right custom-menu"
+					style="background-color: #F8F8F8;">
+					<li><a href="#sobre" data-toggle="collapse"
+						data-target=".navbar-collapse"><b>Sobre</b></a></li>
+					<li><a href="#projects" data-toggle="collapse"
+						data-target=".navbar-collapse"><b>Projetos</b></a></li>
+					<li><a href="publications-pt.html" data-toggle="collapse"
+						data-target=".navbar-collapse"><b>Publicações</b></a></li>
+					<li><a href="#contato" data-toggle="collapse"
+						data-target=".navbar-collapse"><b>Contato</b></a></li>
+					<li><a href="index-en.html" data-toggle="collapse" data-target=".navbar-collapse" ><b>English</b></a></li>
+				</ul>
+			</nav>
+			<!-- /main nav -->
+
+		</div>
+    </header>
+
+ <!-- Parte acima refere-se à NAVBAR EM SI -->   
+
+	<!-- sobre -->
+	<section id="sobre">
+		<div class="overlay">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-1"></div>
+					<div class="col-lg-3 col-md-2" data-wow-delay="0.3s">
+						<img src="images/isometricman.svg"
+							style="height: 200px; padding-top: 10px">
+					</div>
+					<div class="col-lg-7 col-md-8 wow fadeIn" data-wow-delay="0.3s">
+						<br>
+						<h3 class="text-upper">Centro de Pesquisa em Software</h3>
+						<p class="tm-white" style="text-align: center;">O Centro de Pesquisa em Software (CPSoftware) é um grupo de pesquisa e desenvolvimento de software do 
+						Instituto Federal de Alagoas (IFAL), o qual se concentra no desenvolvimento de produtos de software e pesquisas nas áreas de engenharia de software, 
+						inteligência artificial e linguagens de programação.</p>
+						<br> <b>Desde 2017</b>
+					</div>
+					<div class="col-md-1"></div>
+				</div>
+			</div>
+		</div>
+    </section>
+    
+	<!--    Essa parte de cima refere-se à parte azul embaixo da NAVBAR-->
+
+	<!-- especialidades -->
+	<section id="especialidades" style="padding-top: 40px;">
+		<div class="container">
+			<div class="row">
+				<!-- <div class="col-md-12 wow bounceIn">
+          <h2 class="text-uppercase">Working Areas</h2>
+        </div> -->
+				<div class="col-md-4 wow fadeInUp templatemo-box"
+					data-wow-delay="0.3s">
+					<i class="fa fa-search"></i>
+					<h3 class="text-uppercase">Pesquisa</h3>
+					<p>Pesquisas nas áreas de engenharia de software, inteligência artificial, garantia de qualidade, Internet das coisas, and big data.</p>
+				</div>
+				<div class="col-md-4 wow fadeInUp templatemo-box"
+					data-wow-delay="0.3s">
+					<i class="fa fa-code"></i>
+					<h3 class="text-uppercase">Soluções</h3>
+					<p>Desenvolvimento de sistemas de software em várias linguagens de programação, protótipos em hardware e automação.</p>
+				</div>
+				<div class="col-md-4 wow fadeInUp templatemo-box"
+					data-wow-delay="0.3s">
+					<i class="fa fa-users"></i>
+					<h3 class="text-uppercase">Análise de Dados</h3>
+					<p>Análise de grandes quantidades de dados para encontrar informações úteis que possam ser utilizadas para tomada de decisão.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- especialidades -->
+
+<!-- ÁREA ACIMA REFERE-SE À PARTE LOGO ABAIXO DO QUADRO AZUL, ACIMA DA INSCRIÇÃO "PROJETOS"-->
+
+
+	<section id="projects">
+		<div class="col-md-12 wow bounceIn">
+			<h2 class="text-uppercase"
+				style="text-align: center; padding-bottom: 40px; padding-top: 80px;">Projetos</h2>
+		</div>
+		<div class="col-md-12 col-sm-12 wrapper" style="padding-left: 10%; padding-right: 10%;">
+			<div class="col-lg-3 col-md-4 col-sm-12" style="padding: 20px; cursor:pointer;" onclick="window.location='travlendar-pt.html'">
+				<div style="text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+					<div style="padding-top: 25px; padding-bottom: 25px;">
+						<img class="mamber-img transition"
+							src="images/logo-travlendar.png" style="width: 45%;">
+					</div>
+					<div
+						style="background-color: #1D8BCB; padding: 0px; padding-top: 2px;">
+						<h3 class="transition" style="color: white; padding-bottom: 0px;">Travlendar</h3>
+						<p style="color: white; padding-top: 0px">ORGANIZADOR DE ATIVIDADES</p>
+						<img class="transition" src="images/blocos.png"
+							style="width: 25%; padding-top: 10px; padding-bottom: 20px">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-12" style="padding: 20px; cursor:pointer;" onclick="window.location='events-pt.html'">
+				<div style="text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+					<div style="padding-top: 25px; padding-bottom: 25px;">
+						<img class="mamber-img transition" src="images/eminc-logo.gif"
+							style="width: 45%;">
+					</div>
+					<div
+						style="background-color: #1D8BCB; padding: 0px; padding-top: 2px;">
+						<h3 class="transition" style="color: white; padding-bottom: 0px;">Eventos</h3>
+						<p style="color: white; padding-top: 0px">PUBLICIDADE DE EVENTOS</p>
+						<img class="transition" src="images/blocos.png"
+							style="width: 25%; padding-top: 10px; padding-bottom: 20px">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-12" style="padding: 20px; cursor:pointer;" onclick="window.location='bookings-pt.html'">
+				<div style="text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+					<div style="padding-top: 25px; padding-bottom: 25px;">
+						<img class="mamber-img transition" src="images/reserva-mais.png"
+							style="width: 45%;">
+					</div>
+					<div
+						style="background-color: #1D8BCB; padding: 0px; padding-top: 2px;">
+						<h3 class="transition" style="color: white; padding-bottom: 0px;">Bookings</h3>
+						<p style="color: white; padding-top: 0px">GERENCIADOR DE RESERVAS</p>
+						<img class="transition" 
+							style="width: 25%; padding-top: 10px; padding-bottom: 20px">
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-4 col-sm-12" style="padding: 20px; cursor:pointer;" onclick="window.location='hupi-pt.html'">
+				<div style="text-align: center; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);">
+					<div style="padding-top: 25px; padding-bottom: 25px;">
+						<img class="mamber-img transition" src="images/Mapa.png"
+							style="width: 45%;">
+					</div>
+					<div
+						style="background-color: #1D8BCB; padding: 0px; padding-top: 2px;">
+						<h3 class="transition" style="color: white; padding-bottom: 0px;">Hupi</h3>
+						<p style="color: white; padding-top: 0px">GUIA TURÍSTICO</p>
+						<img class="transition" src="images/blocos.png"
+							style="width: 25%; padding-top: 10px; padding-bottom: 20px">
+					</div>
+				</div>
+			</div>
+		</div>
+    </section>
+    
+<!-- AREA ACIMA REFERE-SE AOS CARDS ACIMA DO MAPA-->
+
+<!-- AREA ABAIXO REFERE-SE AO MAPA EM SI E AO "CARD" DE CONTATO SOBRE ELE-->
+	<section id="contato">
+		<div class="container" style="text-align: center;">
+			<div class="row">
+				<div class="col-md-12 wow bounceIn">
+					<br>
+					<br>
+					<br>
+					<br>
+					<h2 class="text-uppercase">Contato</h2>
+					<br>
+					<br>
+					<br>
+					<br>
+				</div>
+			</div>
+		</div>
+		<div id="map" style="display: table; border: 2px solid #1D8BCB;"
+			class="col-md-12 wow fadeIn" data-wow-delay="0.6s"></div>
+		<script>
+			function initMap() {
+				var ifal = {
+					lat : -9.6650685,
+					lng : -35.7307854
+				};
+				var map = new google.maps.Map(document.getElementById('map'), {
+					zoom : 14,
+					center : ifal,
+					disableDefaultUI : true,
+					zoomControl : true
+				});
+				var contentString = '<div style="width: 250px;">'
+						+ '<div><h5 style="color: #333333">ENTRE EM CONTATO</h5></div>'
+						+ '<div id="bodyContent">'
+						+ '<div style="display: inline-block">'
+						+ '<i class="fa fa-phone" style="background: #28a7e9; border-radius: 50%; width: 40px; height: 40px; line-height: 40px; text-align: center; margin-top: 6px; margin-right: 10px; color: #fff"></i>'
+						+ '<p style="color: #28a7e9; padding-top: 10px; position: absolute; left: 47px; top: 40px; font-size: 15px">+55 (82) 9 9902-6084</p>'
+						+ '</div>'
+						+ '<div>'
+						+ '<i class="fa fa-envelope-o" style="float: left; background: #28a7e9; border-radius: 50%; width: 40px; height: 40px; line-height: 40px; text-align: center; margin-top: 6px; margin-right: 10px; color: #fff"></i>'
+						+ '<p style="color: #28a7e9; padding-top: 13px; font-size: 15px">contato@cpsoftware.com.br</p><br>Rua Mizael Domingues, 75 - Centro.<br>Maceió, AL, Brazil, 57020-600.'
+						+ '</div>' + '</div>' + '</div>';
+
+				var infowindow = new google.maps.InfoWindow({
+					content : contentString
+				});
+				var marker = new google.maps.Marker({
+					position : ifal,
+					map : map
+				});
+				infowindow.open(map, marker);
+			}
+		</script>
+		<script async defer
+			src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDKbWVYG7idOLCjgQBsXoD3snOZEgrttHI&callback=initMap">
+			
+		</script>
+	</section>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<p>
+					&nbsp;<br>
+				</p>
+				<p>Copyright © 2017 CPSoftware</p>
+			</div>
+		</div>
+	</footer>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+	<script src="js/wow.min.js"></script>
+	<script src="js/jquery.singlePageNav.min.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>
